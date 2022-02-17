@@ -1,0 +1,81 @@
+.contacts {
+	background-color: #c6e2e4;
+	padding: 20px 40px;
+	border-radius: 10px;
+}
+input {
+	width: 98%;
+	box-sizing: border-box;
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+input:focus {
+	outline-color: rgb(139, 158, 167);
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 18px;
+}
+
+li {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+	background-color: #deeff0;
+	padding: 10px;
+	box-sizing: border-box;
+	width: 98%;
+	border-radius: 10px;
+	font-weight: 500;
+	color: #4e4e4e;
+}
+
+li:hover {
+	outline: 1px solid #adb9b9;
+}
+
+button {
+	width: 98%;
+	font-size: 18px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid white;
+	font-weight: 500;
+	color: #4e4e4e;
+	background-color: #deeff0;
+}
+button:active {
+	border: 1px solid rgb(172, 201, 214);
+	color: #757575;
+}
+
+i {
+	margin-left: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.contacts {
+		width: 70vw;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.contacts {
+		width: 80vw;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.contacts {
+		width: 500px;
+	}
+}
